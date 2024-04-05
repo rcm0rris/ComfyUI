@@ -1,0 +1,156 @@
+** ComfyUI startup time: 2024-03-09 21:01:01.060692
+[2024-03-09 21:01] ** Platform: Windows
+[2024-03-09 21:01] ** Python version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+[2024-03-09 21:01] ** Python executable: C:\Users\r_c_m\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+[2024-03-09 21:01] ** Log path: D:\Github\ComfyUI\comfyui.log
+[2024-03-09 21:01] 
+Prestartup times for custom nodes:
+[2024-03-09 21:01]    0.1 seconds: D:\Github\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-09 21:01] 
+[2024-03-09 21:01] Total VRAM 8192 MB, total RAM 16297 MB
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.0.1+cu118 with CUDA 1108 (you have 2.2.1+cu121)
+    Python  3.10.11 (you have 3.10.11)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+[2024-03-09 21:01] xformers version: 0.0.20
+[2024-03-09 21:01] Set vram state to: NORMAL_VRAM
+[2024-03-09 21:01] Device: cuda:0 NVIDIA GeForce RTX 2070 : cudaMallocAsync
+[2024-03-09 21:01] VAE dtype: torch.float32
+[2024-03-09 21:01] Using pytorch cross attention
+[2024-03-09 21:01] Adding extra search path checkpoints D:\Github\stable-diffusion-webui\models/Stable-diffusion
+[2024-03-09 21:01] Adding extra search path configs D:\Github\stable-diffusion-webui\configs
+[2024-03-09 21:01] Adding extra search path vae D:\Github\stable-diffusion-webui\models\VAE
+[2024-03-09 21:01] Adding extra search path loras D:\Github\stable-diffusion-webui\models\Lora
+[2024-03-09 21:01] Adding extra search path loras D:\Github\stable-diffusion-webui\models/LyCORIS
+[2024-03-09 21:01] Adding extra search path upscale_models D:\Github\stable-diffusion-webui\models\ESRGAN
+[2024-03-09 21:01] Adding extra search path upscale_models D:\Github\stable-diffusion-webui\models\RealESRGAN
+[2024-03-09 21:01] Adding extra search path upscale_models D:\Github\stable-diffusion-webui\models\SwinIR
+[2024-03-09 21:01] Adding extra search path embeddings D:\Github\stable-diffusion-webui\embeddings
+[2024-03-09 21:01] Adding extra search path hypernetworks D:\Github\stable-diffusion-webui\models\hypernetworks
+[2024-03-09 21:01] Adding extra search path controlnet D:\Github\stable-diffusion-webui\models\ControlNet
+[2024-03-09 21:01] ### Loading: ComfyUI-Manager (V2.9)
+[2024-03-09 21:01] ## ComfyUI-Manager: installing dependencies
+[2024-03-09 21:01]  Collecting GitPython
+[2024-03-09 21:01]    Using cached GitPython-3.1.42-py3-none-any.whl (195 kB)
+[2024-03-09 21:01]  Collecting matrix-client==0.4.0
+[2024-03-09 21:01]    Using cached matrix_client-0.4.0-py2.py3-none-any.whl (43 kB)
+[2024-03-09 21:01]  Collecting transformers
+[2024-03-09 21:01]    Using cached transformers-4.38.2-py3-none-any.whl (8.5 MB)
+[2024-03-09 21:01]  Collecting huggingface-hub>0.20
+[2024-03-09 21:01]    Using cached huggingface_hub-0.21.4-py3-none-any.whl (346 kB)
+[2024-03-09 21:01]  Collecting urllib3~=1.21
+[2024-03-09 21:01]    Using cached urllib3-1.26.18-py2.py3-none-any.whl (143 kB)
+[2024-03-09 21:01]  Collecting requests~=2.22
+[2024-03-09 21:01]    Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+[2024-03-09 21:01]  Collecting gitdb<5,>=4.0.1
+[2024-03-09 21:01]    Using cached gitdb-4.0.11-py3-none-any.whl (62 kB)
+[2024-03-09 21:01]  Collecting tqdm>=4.27
+[2024-03-09 21:01]    Using cached tqdm-4.66.2-py3-none-any.whl (78 kB)
+[2024-03-09 21:01]  Collecting regex!=2019.12.17
+[2024-03-09 21:01]    Using cached regex-2023.12.25-cp310-cp310-win_amd64.whl (269 kB)
+[2024-03-09 21:01]  Collecting pyyaml>=5.1
+[2024-03-09 21:01]    Using cached PyYAML-6.0.1-cp310-cp310-win_amd64.whl (145 kB)
+[2024-03-09 21:01]  Collecting safetensors>=0.4.1
+[2024-03-09 21:01]    Using cached safetensors-0.4.2-cp310-none-win_amd64.whl (269 kB)
+[2024-03-09 21:01]  Collecting packaging>=20.0
+[2024-03-09 21:01]    Using cached packaging-23.2-py3-none-any.whl (53 kB)
+[2024-03-09 21:01]  Collecting tokenizers<0.19,>=0.14
+[2024-03-09 21:01]    Using cached tokenizers-0.15.2-cp310-none-win_amd64.whl (2.2 MB)
+[2024-03-09 21:01]  Collecting filelock
+[2024-03-09 21:01]    Using cached filelock-3.13.1-py3-none-any.whl (11 kB)
+[2024-03-09 21:01]  Collecting numpy>=1.17
+[2024-03-09 21:01]    Using cached numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+[2024-03-09 21:01]  Collecting typing-extensions>=3.7.4.3
+[2024-03-09 21:01]    Using cached typing_extensions-4.10.0-py3-none-any.whl (33 kB)
+[2024-03-09 21:01]  Collecting fsspec>=2023.5.0
+[2024-03-09 21:01]    Using cached fsspec-2024.2.0-py3-none-any.whl (170 kB)
+[2024-03-09 21:01]  Collecting smmap<6,>=3.0.1
+[2024-03-09 21:01]    Using cached smmap-5.0.1-py3-none-any.whl (24 kB)
+[2024-03-09 21:01]  Collecting idna<4,>=2.5
+[2024-03-09 21:01]    Using cached idna-3.6-py3-none-any.whl (61 kB)
+[2024-03-09 21:01]  Collecting charset-normalizer<4,>=2
+[2024-03-09 21:01]    Using cached charset_normalizer-3.3.2-cp310-cp310-win_amd64.whl (100 kB)
+[2024-03-09 21:01]  Collecting certifi>=2017.4.17
+[2024-03-09 21:01]    Using cached certifi-2024.2.2-py3-none-any.whl (163 kB)
+[2024-03-09 21:01]  Collecting colorama
+[2024-03-09 21:01]    Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+[2024-03-09 21:01]  Installing collected packages: urllib3, typing-extensions, smmap, safetensors, regex, pyyaml, packaging, numpy, idna, fsspec, filelock, colorama, charset-normalizer, certifi, tqdm, requests, gitdb, matrix-client, huggingface-hub, GitPython, tokenizers, transformers
+[2024-03-09 21:01] [2024-03-09 21:01] [!] ERROR: Could not install packages due to an OSError: [WinError 5] 存取被拒。: 'C:\\Users\\r_c_m\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\safetensors\\_safetensors_rust.cp310-win_amd64.pyd'
+[2024-03-09 21:01] [!] Check the permissions.
+[2024-03-09 21:01] [!] 
+[2024-03-09 21:01] [!] 
+[2024-03-09 21:01] [!] [notice] A new release of pip is available: 23.0.1 -> 24.0
+[2024-03-09 21:01] [!] [notice] To update, run: C:\Users\r_c_m\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+[2024-03-09 21:01] ## [ERROR] ComfyUI-Manager: Attempting to reinstall dependencies using an alternative method.
+[2024-03-09 21:01]  Collecting GitPython
+[2024-03-09 21:01]    Using cached GitPython-3.1.42-py3-none-any.whl (195 kB)
+[2024-03-09 21:01]  Collecting matrix-client==0.4.0
+[2024-03-09 21:01]    Using cached matrix_client-0.4.0-py2.py3-none-any.whl (43 kB)
+[2024-03-09 21:01]  Collecting transformers
+[2024-03-09 21:01]    Using cached transformers-4.38.2-py3-none-any.whl (8.5 MB)
+[2024-03-09 21:01]  Collecting huggingface-hub>0.20
+[2024-03-09 21:01]    Using cached huggingface_hub-0.21.4-py3-none-any.whl (346 kB)
+[2024-03-09 21:01]  Collecting requests~=2.22
+[2024-03-09 21:01]    Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+[2024-03-09 21:01]  Collecting urllib3~=1.21
+[2024-03-09 21:01]    Using cached urllib3-1.26.18-py2.py3-none-any.whl (143 kB)
+[2024-03-09 21:01]  Collecting gitdb<5,>=4.0.1
+[2024-03-09 21:01]    Using cached gitdb-4.0.11-py3-none-any.whl (62 kB)
+[2024-03-09 21:01]  Collecting safetensors>=0.4.1
+[2024-03-09 21:01]    Using cached safetensors-0.4.2-cp310-none-win_amd64.whl (269 kB)
+[2024-03-09 21:01]  Collecting tqdm>=4.27
+[2024-03-09 21:01]    Using cached tqdm-4.66.2-py3-none-any.whl (78 kB)
+[2024-03-09 21:01]  Collecting numpy>=1.17
+[2024-03-09 21:01]    Using cached numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+[2024-03-09 21:01]  Collecting filelock
+[2024-03-09 21:01]    Using cached filelock-3.13.1-py3-none-any.whl (11 kB)
+[2024-03-09 21:01]  Collecting packaging>=20.0
+[2024-03-09 21:01]    Using cached packaging-23.2-py3-none-any.whl (53 kB)
+[2024-03-09 21:01]  Collecting regex!=2019.12.17
+[2024-03-09 21:01]    Using cached regex-2023.12.25-cp310-cp310-win_amd64.whl (269 kB)
+[2024-03-09 21:01]  Collecting tokenizers<0.19,>=0.14
+[2024-03-09 21:01]    Using cached tokenizers-0.15.2-cp310-none-win_amd64.whl (2.2 MB)
+[2024-03-09 21:01]  Collecting pyyaml>=5.1
+[2024-03-09 21:01]    Using cached PyYAML-6.0.1-cp310-cp310-win_amd64.whl (145 kB)
+[2024-03-09 21:01]  Collecting fsspec>=2023.5.0
+[2024-03-09 21:01]    Using cached fsspec-2024.2.0-py3-none-any.whl (170 kB)
+[2024-03-09 21:01]  Collecting typing-extensions>=3.7.4.3
+[2024-03-09 21:01]    Using cached typing_extensions-4.10.0-py3-none-any.whl (33 kB)
+[2024-03-09 21:01]  Collecting smmap<6,>=3.0.1
+[2024-03-09 21:01]    Using cached smmap-5.0.1-py3-none-any.whl (24 kB)
+[2024-03-09 21:01]  Collecting charset-normalizer<4,>=2
+[2024-03-09 21:01]    Using cached charset_normalizer-3.3.2-cp310-cp310-win_amd64.whl (100 kB)
+[2024-03-09 21:01]  Collecting certifi>=2017.4.17
+[2024-03-09 21:01]    Using cached certifi-2024.2.2-py3-none-any.whl (163 kB)
+[2024-03-09 21:01]  Collecting idna<4,>=2.5
+[2024-03-09 21:01]    Using cached idna-3.6-py3-none-any.whl (61 kB)
+[2024-03-09 21:01]  Collecting colorama
+[2024-03-09 21:01]    Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+[2024-03-09 21:01]  Installing collected packages: urllib3, typing-extensions, smmap, safetensors, regex, pyyaml, packaging, numpy, idna, fsspec, filelock, colorama, charset-normalizer, certifi, tqdm, requests, gitdb, matrix-client, huggingface-hub, GitPython, tokenizers, transformers
+[2024-03-09 21:01] [!] ERROR: Could not install packages due to an OSError: [WinError 5] 存取被拒。: 'C:\\Users\\r_c_m\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\safetensors\\_safetensors_rust.cp310-win_amd64.pyd'
+[2024-03-09 21:01] [!] Check the permissions.
+[2024-03-09 21:01] [!] 
+[2024-03-09 21:01] [!] 
+[2024-03-09 21:01] [!] [notice] A new release of pip is available: 23.0.1 -> 24.0
+[2024-03-09 21:01] [!] [notice] To update, run: C:\Users\r_c_m\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+[2024-03-09 21:01] ## [ERROR] ComfyUI-Manager: Failed to install the GitPython package in the correct Python environment. Please install it manually in the appropriate environment. (You can seek help at https://app.element.io/#/room/%23comfyui_space%3Amatrix.org)
+[2024-03-09 21:01] ## ComfyUI-Manager: installing dependencies done.
+[2024-03-09 21:01] Traceback (most recent call last):
+  File "D:\Github\ComfyUI\nodes.py", line 1887, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\Github\ComfyUI\custom_nodes\ComfyUI-Manager\__init__.py", line 100, in <module>
+    from git.remote import RemoteProgress
+ModuleNotFoundError: No module named 'git'
+[2024-03-09 21:01] 
+[2024-03-09 21:01] Cannot import D:\Github\ComfyUI\custom_nodes\ComfyUI-Manager module for custom nodes: No module named 'git'
+[2024-03-09 21:01] 
+Import times for custom nodes:
+[2024-03-09 21:01]   11.5 seconds (IMPORT FAILED): D:\Github\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-03-09 21:01] 
+[2024-03-09 21:01] Starting server
+[2024-03-09 21:01] 
+[2024-03-09 21:01] To see the GUI go to: http://127.0.0.1:8188
